@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CityLink Cyber Café offers professional printing, portal support (KRA, KUCCPS, NTSA, HELB), internet setup, document services, and research assistance in Nairobi.">
+  <title>CityLink Cyber Café | Printing • Portals • IT Support in Nairobi</title>
+
+  <!-- Preload critical resources -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" as="style">
+  <link rel="preload" href="assets/style.css" as="style">
+  <link rel="preload" href="assets/script.js" as="script">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://citylinkcybercafe.com">
+</head>
+<body>
+  <!-- Skip to Content Link -->
+  <!-- <a href="#main-content" class="skip-link">Skip to main content</a> -->
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-grid">
+      <a class="brand" href="/" aria-label="CityLink Cyber Café - Home">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+          <rect x="3" y="4" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.5"></rect>
+          <path d="M8 20h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+        </svg>
+        <span class="brand-name">CityLink Cyber Café</span>
+      </a>
+
+      <nav id="main-nav" class="nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav-list" role="list">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#booking">Book Now</a></li>
+          <li><a href="#location">Location</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:+254700000000" class="btn call-btn" aria-label="Call us at +254700000000">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+            <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+          <span>Call Now</span>
+        </a>
+        <button id="hamburger" class="btn hamburger" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+          <span class="hamburger-lines"></span>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <ul role="list">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#booking">Book Now</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="tel:+254700000000">Call Us</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <!-- HERO SECTION -->
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="hero-badge">Nairobi's Trusted Cyber Café</div>
+          <h1 id="hero-title">Professional Digital Services <span class="highlight">Done Right</span></h1>
+          <p class="hero-subtitle">One-stop solution for printing, documents, IT support and government portal services</p>
+          
+          <ul class="hero-benefits" aria-label="Key benefits">
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+                <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Same-day service available
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Secure & confidential
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Expert technicians
+            </li>
+          </ul>
+          
+          <div class="hero-ctas">
+            <a class="btn primary" href="#booking">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+                <path d="M9 10h6m-6 4h6m2-9H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Book Service
+            </a>
+            <a class="btn secondary" href="tel:+254700000000">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+                <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Call Now
+            </a>
+          </div>
+        </div>
+        
+        <div class="hero-image">
+          <div class="image-wrapper">
+            <img src="https://images.pexels.com/photos/4199523/pexels-photo-4199523.jpeg" alt="Happy customer receiving service at CityLink Cyber Café" loading="eager" width="200" height="100">
+            <div class="image-highlight"></div>
+          </div>
+          <div class="trust-badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Trusted since 2015</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services container" aria-labelledby="services-title">
+      <header class="section-header">
+        <h2 id="services-title" class="section-title">Our Comprehensive Services</h2>
+        <p class="section-subtitle">Complete digital solutions under one roof</p>
+      </header>
+
+      <div class="services-grid" role="list">
+        <!-- Printing Service -->
+        <article class="service-card" role="listitem" aria-labelledby="printing-title">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+              <path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M18 14H6v8h12v-8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 id="printing-title">Printing & Reproduction</h3>
+          <ul class="service-features">
+            <li><strong>B&W/Color Printing:</strong> From KSh 10/page</li>
+            <li><strong>Large Format:</strong> A3/A2/A1 printing</li>
+            <li><strong>Photo Printing:</strong> Glossy & matte finishes</li>
+            <li><strong>Binding:</strong> Spiral, thermal, comb</li>
+            <li><strong>Lamination:</strong> Standard & thick</li>
+            <li><strong>Scanning:</strong> High-res to email/USB</li>
+          </ul>
+        </article>
+        
+        <!-- Computer Rental Service -->
+        <article class="service-card" role="listitem" aria-labelledby="rental-title">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+              <rect x="2" y="3" width="20" height="15" rx="2" stroke="currentColor" stroke-width="2"/>
+              <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3 id="rental-title">Computer Rental</h3>
+          <ul class="service-features">
+            <li><strong>Hourly Rental:</strong> KSh 100/hour</li>
+            <li><strong>Daily Package:</strong> KSh 500/day</li>
+            <li>High-speed internet included</li>
+            <li>Printing discount for rentals</li>
+            <li>Webcam & headphones available</li>
+            <li>Secure browsing environment</li>
+          </ul>
+        </article>
+
+        <!-- Portal Services -->
+        <article class="service-card" role="listitem" aria-labelledby="portals-title">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+              <rect x="2" y="3" width="20" height="14" rx="2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 id="portals-title">Government Portal Assistance</h3>
+          <ul class="service-features">
+            <li><strong>KRA:</strong> PIN, iTax, compliance</li>
+            <li><strong>NTSA:</strong> DL, logbook, transfers</li>
+            <li><strong>HELB:</strong> Applications, clearance</li>
+            <li><strong>KUCCPS:</strong> Placement, revisions</li>
+            <li><strong>eCitizen:</strong> All government services</li>
+            <li><strong>TSC:</strong> Teacher registration</li>
+          </ul>
+        </article>
+        
+        <!-- Graphic Design Service -->
+        <article class="service-card" role="listitem" aria-labelledby="design-title">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+              <path d="M12 2l10 6.5v7L12 22 2 15.5v-7L12 2z" stroke="currentColor" stroke-width="2"/>
+              <path d="M12 22v-6.5" stroke="currentColor" stroke-width="2"/>
+              <path d="M22 8.5l-10 7-10-7" stroke="currentColor" stroke-width="2"/>
+              <path d="M2 15.5l10-7 10 7" stroke="currentColor" stroke-width="2"/>
+              <path d="M12 2v6.5" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3 id="design-title">Graphic Design</h3>
+          <ul class="service-features">
+            <li><strong>Business Cards:</strong> KSh 800 design</li>
+            <li><strong>Flyers/Banners:</strong> From KSh 1,500</li>
+            <li><strong>Logos:</strong> Professional branding</li>
+            <li><strong>Social Media:</strong> Posts & covers</li>
+            <li><strong>Photo Editing:</strong> Retouching</li>
+            <li><strong>Large Format:</strong> Posters & banners</li>
+          </ul>
+        </article>
+
+        <!-- Document Services -->
+        <article class="service-card" role="listitem" aria-labelledby="documents-title">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 id="documents-title">Document Services</h3>
+          <ul class="service-features">
+            <li><strong>Typing:</strong> KSh 100-150/page</li>
+            <li><strong>CVs:</strong> Professionally formatted</li>
+            <li><strong>Theses:</strong> Academic formatting</li>
+            <li><strong>Legal Docs:</strong> Court documents</li>
+            <li><strong>Transcription:</strong> Audio to text</li>
+            <li><strong>Translation:</strong> Swahili/English</li>
+          </ul>
+        </article>
+
+        <!-- Digital Services -->
+        <article class="service-card" role="listitem" aria-labelledby="digital-title">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+              <path d="M8 3v3m8-3v3m-13 3h18v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6z" stroke="currentColor" stroke-width="2"/>
+              <path d="M3 10h18" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3 id="digital-title">Digital Services</h3>
+          <ul class="service-features">
+            <li><strong>Email Setup:</strong> All devices</li>
+            <li><strong>Cloud Backup:</strong> Secure storage</li>
+            <li><strong>Website Setup:</strong> Basic sites</li>
+            <li><strong>Social Media:</strong> Account setup</li>
+            <li><strong>Online Apps:</strong> Assistance</li>
+            <li><strong>Digital Skills:</strong> Training</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="service-cta">
+        <p>Need something not listed? <a href="#booking">Ask us</a> — we probably offer it!</p>
+      </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section id="pricing" class="pricing container" aria-labelledby="pricing-title">
+      <header class="section-header">
+        <h2 id="pricing-title" class="section-title">Our Pricing</h2>
+        <p class="section-subtitle">Competitive rates with transparent pricing</p>
+      </header>
+
+      <div class="pricing-grid" role="list">
+        <!-- Printing Services -->
+        <article class="price-card" role="listitem" aria-labelledby="printing-price-title">
+          <h3 id="printing-price-title">Printing</h3>
+          <ul class="price-list">
+            <li><span>B&W Printing</span><span>KSh 10-15</span></li>
+            <li><span>Color Printing</span><span>KSh 30-50</span></li>
+            <li><span>Scanning</span><span>KSh 20/page</span></li>
+            <li><span>Photo Print</span><span>KSh 50-100</span></li>
+            <li><span>Binding</span><span>KSh 150-500</span></li>
+          </ul>
+        </article>
+
+        <!-- Computer Services -->
+        <article class="price-card featured" role="listitem" aria-labelledby="computer-price-title">
+          <div class="popular-badge">Popular</div>
+          <h3 id="computer-price-title">Computer Services</h3>
+          <ul class="price-list">
+            <li><span>PC Rental (1hr)</span><span>KSh 100</span></li>
+            <li><span>Internet (1hr)</span><span>KSh 50</span></li>
+            <li><span>Software Install</span><span>KSh 200</span></li>
+            <li><span>Virus Removal</span><span>KSh 400</span></li>
+            <li><span>Data Backup</span><span>KSh 300</span></li>
+          </ul>
+        </article>
+
+        <!-- Document Services -->
+        <article class="price-card" role="listitem" aria-labelledby="doc-price-title">
+          <h3 id="doc-price-title">Document Services</h3>
+          <ul class="price-list">
+            <li><span>Typing (per pg)</span><span>KSh 100-150</span></li>
+            <li><span>CV Writing</span><span>KSh 300-800</span></li>
+            <li><span>Thesis Format</span><span>KSh 30-50/pg</span></li>
+            <li><span>Translation</span><span>KSh 150/pg</span></li>
+            <li><span>Notary</span><span>KSh 200/doc</span></li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="pricing-disclaimer">
+        <p><strong>Note:</strong> All prices subject to service complexity. Ask for exact quote.</p>
+      </div>
+    </section>
+
+    <!-- BOOKING SECTION -->
+    <section id="booking" class="booking container" aria-labelledby="booking-title">
+      <div class="booking-grid">
+        <div class="booking-content">
+          <header class="section-header">
+            <h2 id="booking-title" class="section-title">Book Your Service</h2>
+            <p class="section-subtitle">Fast, convenient, and hassle-free</p>
+          </header>
+          
+          <div class="booking-benefits">
+            <ul role="list">
+              <li>Skip the queue with online booking</li>
+              <li>Get priority service when you arrive</li>
+              <li>Receive a printable receipt</li>
+              <li>Get SMS confirmation</li>
+            </ul>
+          </div>
+          
+          <div class="booking-contact">
+            <h3>Prefer to call?</h3>
+            <p>We're happy to assist over the phone</p>
+            <a href="tel:+254700000000" class="btn call-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+                <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              <span>+254 726 550 759</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="booking-form-container">
+          <form id="booking-form" class="booking-form" novalidate>
+            <div class="form-group">
+              <label for="cust-name">
+                <span>Full Name *</span>
+                <input type="text" id="cust-name" name="cust-name" required placeholder="Your full name">
+              </label>
+              <small class="error-message" id="name-error" aria-live="polite"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="cust-phone">
+                <span>Phone Number *</span>
+                <input type="tel" id="cust-phone" name="cust-phone" required placeholder="07XXXXXXXX" pattern="[0-9]{10}">
+              </label>
+              <small class="error-message" id="phone-error" aria-live="polite"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="cust-email">
+                <span>Email Address</span>
+                <input type="email" id="cust-email" name="cust-email" placeholder="your@email.com">
+              </label>
+              <small class="error-message" id="email-error" aria-live="polite"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="service-type">
+                <span>Service Type *</span>
+                <select id="service-type" name="service-type" required>
+                  <option value="" disabled selected>Select a service</option>
+                  <option value="printing">Printing & Scanning</option>
+                  <option value="portal">Portal Assistance</option>
+                  <option value="typing">Typing & Documents</option>
+                  <option value="it">IT & Internet Services</option>
+                  <option value="other">Other Service</option>
+                </select>
+              </label>
+              <small class="error-message" id="service-error" aria-live="polite"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="service-details">
+                <span>Specific Service Needed *</span>
+                <select id="service-details" name="service-details" required>
+                  <option value="" disabled selected>Select specific service</option>
+                  <!-- Options will be populated by JavaScript based on service-type -->
+                </select>
+              </label>
+              <small class="error-message" id="details-error" aria-live="polite"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="booking-notes">
+                <span>Additional Notes</span>
+                <textarea id="booking-notes" name="booking-notes" rows="3" placeholder="Any special instructions, file details, or questions..."></textarea>
+              </label>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn primary">Submit Booking</button>
+              <div id="form-status" role="status" aria-live="polite"></div>
+            </div>
+          </form>
+
+          <!-- Printable receipt area -->
+          <div id="receipt" class="receipt" aria-hidden="true">
+            <div class="receipt-inner">
+              <h3>CityLink Cyber Café — Booking Receipt</h3>
+              <p id="rcpt-datetime"></p>
+              
+              <p><strong>Name:</strong> <span id="rcpt-name"></span></p>
+              <p><strong>Phone:</strong> <span id="rcpt-phone"></span></p>
+              <p><strong>Email:</strong> <span id="rcpt-email"></span></p>
+              
+              <p><strong>Services:</strong></p>
+              <ul id="rcpt-services"></ul>
+              
+              <p><strong>Notes:</strong> <span id="rcpt-notes"></span></p>
+              
+              <p class="muted small">Show this receipt at the counter or keep the confirmation screenshot.</p>
+              <p class="muted small">Thank you for choosing CityLink Cyber Café!</p>
+            </div>
+            
+            <div class="receipt-actions">
+              <button class="btn primary" data-action="print">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+                  <path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M18 14H6v8h12v-8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Print Receipt
+              </button>
+              <button class="btn secondary" data-action="new-booking">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+                  <path d="M12 5v14m-7-7h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                New Booking
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATION SECTION -->
+    <section id="location" class="location container" aria-labelledby="location-title">
+      <header class="section-header">
+        <h2 id="location-title" class="section-title">Visit Us</h2>
+        <p class="section-subtitle">Conveniently located in central Nairobi</p>
+      </header>
+
+      <div class="location-grid">
+        <div class="location-info">
+          <div class="address">
+            <h3>Address</h3>
+            <address>
+              Kenyatta Avenue<br>
+              Nairobi CBD<br>
+              Near City Hall
+            </address>
+          </div>
+
+          <div class="hours">
+            <h3>Opening Hours</h3>
+            <ul class="hours-list" role="list">
+              <li>
+                <span>Monday - Friday</span>
+                <span>8:00 AM - 7:00 PM</span>
+              </li>
+              <li>
+                <span>Saturday</span>
+                <span>9:00 AM - 5:00 PM</span>
+              </li>
+              <li>
+                <span>Sunday</span>
+                <span>Closed</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-methods">
+            <h3>Contact</h3>
+            <ul role="list">
+              <li>
+                <a href="tel:+254700000000">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+                    <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                  <span>+254 726 550 759</span>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:info@citylinkcyber.com">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M22 6l-10 7L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                  <span>info@citylinkcyber.com</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="location-map">
+          <div class="map-container">
+            <!-- Embedded Google Map -->
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.808559339197!2d36.82154831575397!3d-1.292385835979772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMTczMi42IlMgMzYwrDA0OTE3LjYiRQ!5e0!3m2!1sen!2ske!4v1620000000000!5m2!1sen!2ske" 
+              width="600" 
+              height="450" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              aria-label="Map showing location of CityLink Cyber Café"
+              title="CityLink Cyber Café Location">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials container" aria-labelledby="testimonials-title">
+      <header class="section-header">
+        <h2 id="testimonials-title" class="section-title">What Our Customers Say</h2>
+        <p class="section-subtitle">Trusted by students, professionals, and businesses</p>
+      </header>
+
+      <div class="testimonials-grid" role="list">
+        <article class="testimonial-card" role="listitem">
+          <div class="testimonial-content">
+            <div class="rating" aria-label="5 star rating">
+              <span>★★★★★</span>
+            </div>
+            <blockquote>
+              <p>Saved me hours of frustration with my KRA filing. The staff walked me through each step patiently. Will definitely return!</p>
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="author-info">
+                <strong>James M.</strong>
+                <span>Small Business Owner</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card" role="listitem">
+          <div class="testimonial-content">
+            <div class="rating" aria-label="5 star rating">
+              <span>★★★★★</span>
+            </div>
+            <blockquote>
+              <p>Formatted my 120-page thesis perfectly and had it printed and bound same day. Excellent quality and service.</p>
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="author-info">
+                <strong>Sarah W.</strong>
+                <span>University Student</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card" role="listitem">
+          <div class="testimonial-content">
+            <div class="rating" aria-label="5 star rating">
+              <span>★★★★★</span>
+            </div>
+            <blockquote>
+              <p>Fixed my internet setup in 15 minutes after I struggled for days. Knowledgeable and efficient service.</p>
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="author-info">
+                <strong>David K.</strong>
+                <span>Remote Worker</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="brand" aria-label="CityLink Cyber Café - Home">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+            <rect x="3" y="4" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.5"></rect>
+            <path d="M8 20h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+          </svg>
+          <span class="brand-name">CityLink Cyber Café</span>
+        </a>
+        <p class="footer-motto">Your trusted digital services partner</p>
+        <div class="social-links">
+          <a href="#" aria-label="Follow us on Facebook">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </a>
+          <a href="#" aria-label="Follow us on Twitter">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+              <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </a>
+          <a href="#" aria-label="Follow us on Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+              <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M17.5 6.5h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <div class="footer-nav-column">
+          <h3>Services</h3>
+          <ul role="list">
+            <li><a href="#services">Printing & Scanning</a></li>
+            <li><a href="#services">Portal Assistance</a></li>
+            <li><a href="#services">Document Services</a></li>
+            <li><a href="#services">IT Support</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-column">
+          <h3>Company</h3>
+          <ul role="list">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#booking">Book Online</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-column">
+          <h3>Legal</h3>
+          <ul role="list">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="footer-newsletter">
+        <h3>Stay Updated</h3>
+        <p>Subscribe for service updates and promotions</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+          <button type="submit" class="btn primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="current-year"></span> CityLink Cyber Café. All rights reserved.</p>
+        <p class="footer-note">We respect your privacy. Customer data is never shared or misused.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#main-content" class="back-to-top" aria-label="Back to top">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+      <path d="M18 15l-6-6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    </svg>
+  </a>
+
+  <!-- JavaScript -->
+  <script src="assets/script.js" defer></script>
+</body>
+</html>
